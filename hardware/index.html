@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Hardware Module</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="subpage">
+
+
+        <!-- SideNav -->
+        <div class="sidenav">
+            <a href="index.html#main" class="scroll">Main</a>
+            <a href="index.html#cost" class="scroll">Cost</a>
+            <a href="index.html#demo" class="scroll">Demo</a>
+            <a href="index.html#members" class="scroll">Members</a>
+        </div>
+
+        <!-- Header -->
+        <header id="header">
+				<div class="inner">
+					<a href="../" class="logo">Ball On Plate</a>
+					<nav id="nav">
+                        <a href="../visual">Visual</a>
+                        <a href="../communication">Software</a>
+                        <a href="../hardware">Hardware</a>
+					</nav>
+				</div>
+			</header>
+
+        <!-- Main -->
+        <section id="main" class="wrapper">
+            <div class="inner">
+                <header class="align-center">
+                    <h2>Hardware Module</h2>
+                    <p>arduino,touchPanel,sg90,hc-05</p>
+                </header>
+
+
+                <div class="image \-2u(medium) right">
+                    <img src="../images/hardware/hardware-3.jpg" alt="hardware" />
+                </div>
+                <p>Dokunmatik ekran üzerindeki hareketli topun denge noktasına getirilmesi için topun
+                    koordinatlarını dokunmatik ekrandan alıp yazalım modülüne vererek plakanın
+                    yapması gereken açının hesaplanmasını sağlar ve yazılım modülünden gelen bu açıya
+                    uygun olarak motorlar yardımıyla plakayı hareket ettirir.Donanım ile yazılım modülü
+                    arasındaki iletişimi micro-controller(arduino-mega) ile sağlanmaktadır.
+                </p>
+
+                <div class="image \-2u(medium) left">
+                    <img src="../images/hardware/hardware-4.jpg" alt="hardware" />
+                </div>
+
+                <p>
+                    Arduino, Dokunmatik Ekrandan topun koordinatlarını vermesini bekler.
+                    Dokunmatik Ekran, eğer top üzerinde değilse topun üzerine atılmasını bekler.
+                    Dokunmatik Ekran, eğer top üzerinde ise topun koordinatlarını arduino ya
+                    aktarır.Arduino bu koordinatları PC ye aktarır.
+                    Daha sonra arduino PC den Servoların yapacağı hareketin gelmesini bekler.
+                    Pc den Servoların yapacağı hareket geldikten sonra ardunio servolara
+                    hareketi yaptırır.Ve son olarak tekrar ilk adıma geri döner.
+                </p>
+
+
+
+            </div>
+        </section>
+
+        <!-- Cost -->
+        <section id="cost" class="wrapper">
+            <div class="inner">
+                <header class="align-center">
+                    <h2>Cost</h2>
+                </header>
+                <table>
+                <tr>
+                    <th>Alet</th>
+                    <th>Price </th>
+
+                </tr>
+                <tr>
+                    <td>40cm * 40 cm plaka</td>
+                    <td>3 USD</td>
+
+                </tr>
+                <tr>
+                    <td>Arduino Mega</td>
+                    <td>5 USD</td>
+                </tr>
+                <tr>
+                    <td>TouchPanel</td>
+                    <td>35 USD</td>
+                </tr>
+                <tr>
+                    <td>Sg90 Servo Motor(x2)</td>
+                    <td>1 USD</td>
+                </tr>
+                <tr>
+                    <td>360° Joint(Mafsal)+Rod(Cubuk)</td>
+                    <td>7 USD</td>
+                </tr>
+                <tr>
+                    <td>Servo Rod(x2),Rod End(x2) and L type bracket((x2) Yeke)</td>
+                    <td>6 USD</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>57 USD</td>
+                </tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- Demo -->
+        <section id="demo" class="wrapper">
+
+            <div class="inner">
+                <h2 class="align-center">Demostration</h2>
+                <div class="align-center">
+                    <iframe width="800" height="400" src="https://www.youtube.com/embed/3bhwAFI2Xzk?start=307&end=456" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Members -->
+		<section id="members" class="wrapper style1 special">
+			<div class="inner">
+				<header>
+					<h2>Modul Members</h2>
+				</header>
+				<div class="flex flex-4">
+
+					<div class="box person">
+						<div class="image round">
+							<a href= "https://tr.linkedin.com/in/ahmet-alperen-bulut-81b245103"><img src="../images/members/alperen.jpg" alt="Person 2" /></a>
+						</div>
+						<h3>A.Alperen Bulut</h3>
+					</div>
+
+                    <div class="bosluk"></div>
+                    <div class="bosluk"></div>
+					<div class="box person">
+						<div class="image round">
+                            <a href= "https://www.linkedin.com/in/şeydanur-ekinci-752ba4135"><img src="../images/members/seyda.jpg" alt="Person 3" /></a>
+						</div>
+						<h3>Seydanur Ekinci</h3>
+					</div>
+                    <div class="bosluk"></div>
+                    <div class="bosluk"></div>
+					<div class="box person">
+						<div class="image round">
+							<a href="http://isaes.com.tr"><img src="../images/members/isa.jpg" alt="Person 4" /></a>
+						</div>
+						<h3>Isa Es</h3>
+					</div>
+
+
+					<div class="box person">
+						<div class="image round">
+							<a href="https://www.linkedin.com/in/kadir-koçak-43646867"> <img src="../images/members/kadir.jpg" alt="Person 5" /></a>
+						</div>
+						<h3>Kadir Kocak</h3>
+					</div>
+
+					<div class="box person">
+						<div class="image round">
+							<img src="../images/members/eray.jpg" alt="Person 6" />
+						</div>
+						<h3>Eray Mert</h3>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright"><a href="http://www.gtu.edu.tr/">Gebze Technical University</a> CSE 395 Underground Project I Group 7 - Fall 2016</div>
+						<a href="https://github.com/ballonplategroup7" class="icon align-left fa-github"></a>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/skel.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
